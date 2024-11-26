@@ -1,0 +1,43 @@
+table {
+  background-color: #f6f6f6;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  text-align: left;
+}
+
+th {
+  background: rgb(42, 165, 136);
+  color: white;
+  padding: 6px 12px;
+}
+
+.primary {
+  background-color: #000000;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+tbody > tr:hover {
+  background-color: #b98ee6;
+}
+
+td {
+  padding: 20px 20px;
+  color: black;
+}
+
+.following {
+  background: rgb(42, 165, 136);
+  color: white;
+}
+
+caption {
+  font-weight: 700;
+  
+}
